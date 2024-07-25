@@ -1,3 +1,84 @@
+.btn {
+  background-color: #ddd;
+  border: solid;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff2121;
+  color: white;
+}
+
+nav {
+  height: 100px;
+  background-color: grey;
+  margin: 30px 0;
+  border-radius: 20px;
+  border: solid black; /* Combined border-style and border-color */
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: san-serif ; /* Changed 'font-style' to 'font-family' */
+}
+
+
+
 body {
-	background-color: red;
+	background-color: grey;
+}
+
+header {
+	color: Black;
+	font-family: noto sans;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 20px;
+	margin: 0;
+	padding-left: 15px;
+	font-size: 20px;
+}
+
+h1 {
+	color: white;
+	font-family: Noto Sans;
+	background-color: #000020;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	text-align:center;
+}
+
+p	{
+	color: White;
+	font-family: Baskervville-SC ;
+	background-color: #000020;
+	width: 65%;
+	margin: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.bodybuilder {
+	border: solid 5px white;
+	width: 35%;
+	height: auto;
+	float: right;
+}
+
+.brian {
+	border: solid 5px white;
+	width: 35%;
+	height: auto;
+	float: right;
 }
